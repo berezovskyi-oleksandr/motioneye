@@ -20,7 +20,7 @@ var passwordHash = '';
 var basePath = null;
 var signatureRegExp = new RegExp('[^A-Za-z0-9/?_.=&{}\\[\\]":, -]', 'g');
 var deviceNameValidRegExp = new RegExp('^[A-Za-z0-9\-\_\+\ ]+$');
-var filenameValidRegExp = new RegExp('^([A-Za-z0-9 \(\)/._-]|%[CYmdHMSqv])+$');
+var filenameValidRegExp = new RegExp('^([A-Za-z0-9 \(\)/._-]|%[CYmdHMSqvD])+$');
 var dirnameValidRegExp = new RegExp('^[A-Za-z0-9 \(\)/._-]+$');
 var emailValidRegExp = new RegExp('^[A-Za-z0-9 _+.@^~<>,-]+$');
 var webHookUrlValidRegExp = new RegExp('^[^;\']+$');
